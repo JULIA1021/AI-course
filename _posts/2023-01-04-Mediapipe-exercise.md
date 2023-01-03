@@ -1,12 +1,12 @@
 ---
 layout: post
 title: AirDigit Recognition
-author: [Richard Kuo]
+author: [李昱 陳毅展 張雅婷]
 category: [Lecture]
 tags: [jekyll, ai]
 ---
 
-以手機所錄取之手勢動作資料上傳至Kaggle平台訓練AI模型後,交由電腦啟動辨識服務器, 再以AirDigit App傳送手勢動作之資料至電腦進行辨識。
+期末專題:利用Mediapipe 檢查深蹲是否做的準確
 
 ---
 ## 操作流程
@@ -149,11 +149,6 @@ tags: [jekyll, ai]
 ---
 ## 進行手勢動作辨識
 
-* 首先讓電腦與手機連到同一網路 (可由手機開熱點分享給電腦)
-
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/AirDigit_App.png?raw=true"></p><br />
-
-* 以手機啟動**AirDigit** App
 
 * 於[URL] : `192.168.1.7:5000/predict` (輸入已啟動 AI辨識服務器之電腦IP位址)<br />
   顯示IP位址: 
