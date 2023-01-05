@@ -20,14 +20,14 @@ tags: [jekyll, ai]
 ![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/3.jpg?raw==true)
 ---
 ### 製作步驟
-1.<br>
-2.<br>
-3.<br>
+1參考mediapipe 函式<br>
+2在git bash使用opencv結合mediapipe<br>
+
 
 **專題實作步驟**
-1.<br>
-2.<br>
-3.<br>
+1.開啟鏡頭<br>
+2.使全身進入畫面<br>
+3.將自己的左腳抬起並使膝蓋高於90度<br>
 ### 測試結果
 ![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/1.jpg?raw==true)
 (https://www.youtube.com/shorts/NbBt8I_7Q9k?usp=sharing)
