@@ -14,13 +14,13 @@ MediaPipe 是 Google Research 所開發的多媒體機器學習模型應用框�
 Mediapipe Pose 模型可以標記出身體共 33 個姿勢節點的位置，甚至可以進一步透過這些節點，將人物與背景分離，做到去背的效果，下圖標示出每個節點的順序和位置 <br>
 ![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/4.jpg)?raw==true)
 ### 如果使用 Python 語言進行開發，MediaPipe 支援下列幾種辨識功能：
-**MediaPipe Face Detection ( 人臉追蹤 )
-**MediaPipe Face Mesh ( 人臉網格 )
-**MediaPipe Hands ( 手掌偵測 )
-**MediaPipe Holistic ( 全身偵測 )
-**MediaPipe Pose ( 姿勢偵測 )
-**MediaPipe Objectron ( 物體偵測 )
-**MediaPipe Selfie Segmentation ( 人物去背 )
+**MediaPipe Face Detection ( 人臉追蹤 )**<br>
+**MediaPipe Face Mesh ( 人臉網格 )**<br>
+**MediaPipe Hands ( 手掌偵測 )**<br>
+**MediaPipe Holistic ( 全身偵測 )**<br>
+**MediaPipe Pose ( 姿勢偵測 )**<br>
+**MediaPipe Objectron ( 物體偵測 )**<br>
+**MediaPipe Selfie Segmentation ( 人物去背 )**<br>
 ---
 
 
