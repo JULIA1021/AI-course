@@ -30,7 +30,7 @@ tags: [jekyll, ai]
 3.將自己的左腳抬起並使膝蓋高於90度<br>
 ### 測試結果
 ![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/1.jpg?raw==true)
-(https://www.youtube.com/shorts/NbBt8I_7Q9k?usp=sharing)
+(https://github.com/JULIA1021/AI-course/blob/gh-pages/README.md/5.mp4)
 
 
 <br />
