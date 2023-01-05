@@ -6,7 +6,7 @@ category: [Lecture]
 tags: [jekyll, ai]
 ---
 
-期末專題:利用Mediapipe 檢查深蹲是否做的準確
+期末專題
 
 ---
 ##Mediapipe姿態辨識
