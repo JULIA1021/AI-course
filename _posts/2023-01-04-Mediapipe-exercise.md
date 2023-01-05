@@ -21,7 +21,7 @@ MediaPipe 是 Google Research 所開發的多媒體機器學習模型應用框�
 * **MediaPipe Selfie Segmentation ( 人物去背 )**<br>
 ## Mediapipe Pose 模型
 標記出身體共 33 個姿勢節點的位置，甚至可以進一步透過這些節點，將人物與背景分離，做到去背的效果，下圖標示出每個節點的順序和位置 <br>
-![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/4.jpg)?raw=true)<br>
+![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/4.jpg?raw=true)<br>
 ---
 
 ## 系統簡介及功能說明
