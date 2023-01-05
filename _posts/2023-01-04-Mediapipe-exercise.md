@@ -20,15 +20,17 @@ tags: [jekyll, ai]
 ![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/3.jpg?raw==true)
 ---
 ### 製作步驟
-1.
-2.
-3.
+1.<br>
+2.<br>
+3.<br>
 
 **專題實作步驟**
-
+1.<br>
+2.<br>
+3.<br>
 ### 測試結果
 ![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/1.jpg?raw==true)
-
+(https://www.youtube.com/shorts/NbBt8I_7Q9k?usp=sharing)
 
 
 <br />
