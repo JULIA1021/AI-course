@@ -27,7 +27,7 @@ tags: [jekyll, ai]
 **專題實作步驟**
 
 ### 測試結果
-
+![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/1.jpg?raw==true)
 
 
 
