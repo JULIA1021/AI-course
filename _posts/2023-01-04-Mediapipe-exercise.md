@@ -30,6 +30,7 @@ MediaPipe 是 Google Research 所開發的多媒體機器學習模型應用框�
 
 ---
 ## 程式碼
+程式參考(https://google.github.io/mediapipe/) <br>
 ```
 import cv2
 import mediapipe as mp
