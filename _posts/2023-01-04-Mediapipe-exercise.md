@@ -140,7 +140,7 @@ cap.release()
 2在git bash使用opencv結合mediapipe<br>
 
 
-**專題實作步驟**
+**專題實作步驟** <br>
 1.開啟鏡頭<br>
 2.使全身進入畫面<br>
 3.將自己的左腳抬起並使膝蓋高於90度<br>
