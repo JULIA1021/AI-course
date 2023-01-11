@@ -261,9 +261,8 @@ cap.release()
 2.使全身進入畫面<br>
 3.將自己的左腳抬起並使膝蓋高於90度<br>
 ### 測試結果
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TTE3SjYuing" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
-
-![]([https://github.com/JULIA1021/AI-course/blob/gh-pages/images/1.jpg](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/6.jpg)?raw==true)<br>
+![]([https://github.com/JULIA1021/AI-course/blob/gh-pages/images/8.gif)?raw==true)<br>
+![]([https://github.com/JULIA1021/AI-course/blob/gh-pages/images/6.jpg)?raw==true)<br>
 
 
 <br />
