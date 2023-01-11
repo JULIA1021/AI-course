@@ -26,12 +26,15 @@ MediaPipe 是 Google Research 所開發的多媒體機器學習模型應用框�
 
 ## 系統簡介及功能說明
 ### 系統簡介:角度的應用   <br>
-### 功能說明:利用mediapipe節點偵測左腳所夾角度，來計算出角度改變的次數   <br>
+### 功能說明:利用mediapipe節點偵測指定位置所夾角度，來計算出角度改變的次數   <br>
 
 ---
 ## 程式碼
 程式參考(https://google.github.io/mediapipe/) <br>
 ```
+## 程式碼
+**基本設置與角度計算函數**
+``` 
 import cv2
 import mediapipe as mp
 import numpy as np
@@ -114,7 +117,9 @@ def countExF3(Angel):
   else:
     countEx3=0
   return countEx3
-
+```
+**定義所需的mediapipe身體標點**
+``` 
 # For webcam input:
 cap = cv2.VideoCapture(0)
 with mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as selfie_segmentation:
@@ -155,7 +160,9 @@ with mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as selfie_segm
         l=np.array([results.pose_landmarks.landmark[28].x*imgW,results.pose_landmarks.landmark[28].y*imgH])
 
         Angle=FindAngleF(j,k,l) #算出角度
-    
+```
+**計算動作執行次數**
+```
         #算出次數
         
         
@@ -174,7 +181,9 @@ with mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as selfie_segm
 
         if countEx > 10:
             countEx=10
-       
+```
+**定義和顯示出介面**
+```
         #畫出點位
         mp_drawing.draw_landmarks(
             image,
@@ -244,6 +253,7 @@ with mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as selfie_segm
 
 cap.release()
 ```
+```
 
 
 
@@ -259,10 +269,14 @@ cap.release()
 **專題實作步驟** <br>
 1.開啟鏡頭<br>
 2.使全身進入畫面<br>
-3.將自己的左腳抬起並使膝蓋高於90度<br>
+3.將自己的右手抬起並高於肩膀<br>
+4.將自己的左手肘彎舉<br>
+5.將自己的左腳抬起並高於肩膀<br>
+6.完全蹲下<br>
+7.3~6依序執行十次後程式關閉<br>
 ### 測試結果
 ![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/8.gif?raw==true)<br>
-![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/6.jpg?raw==true)<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TTE3SjYuing" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 <br />
