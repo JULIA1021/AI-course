@@ -274,10 +274,10 @@ cap.release()
 5.將自己的左腳抬起並高於肩膀<br>
 6.完全蹲下<br>
 7.3~6依序執行十次後程式關閉<br>
+![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/6.jpg?raw==true)<br>
 ### 測試結果
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TTE3SjYuing" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-![](https://github.com/JULIA1021/AI-course/blob/gh-pages/images/6.jpg?raw==true)<br>
 
 
 
