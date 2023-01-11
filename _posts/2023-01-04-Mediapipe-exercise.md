@@ -253,7 +253,7 @@ with mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as selfie_segm
 
 cap.release()
 ```
-```
+
 
 
 
